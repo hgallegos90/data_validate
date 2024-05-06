@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2024-05-06T22:32:38.617Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.1" etag="XSfJIfDQ7GSLqw9hqTwl" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-06T23:03:50.711Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="o4uaWBRjVuSxOgNkB_BJ" version="24.3.1" type="github">
   <diagram name="Página-1" id="OlqLtFbdMnLG8wKeLDoy">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4cEDjgXCcpK69KAsvx-h-2" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=user" vertex="1" parent="1">
+          <mxGeometry x="363.54" y="40" width="72.92" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4cEDjgXCcpK69KAsvx-h-3" value="DNS: www.platziwallet.com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4cEDjgXCcpK69KAsvx-h-5" value="CDN - (Certificado de seguridad, reglas de redireccionamiento)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4cEDjgXCcpK69KAsvx-h-6" value="WAF" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4cEDjgXCcpK69KAsvx-h-7" value="BALANCEADOR - API GATEWAY" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="250" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4cEDjgXCcpK69KAsvx-h-8" value="AUTH Y AUTO" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4cEDjgXCcpK69KAsvx-h-10" value="BACKEND - (Servidores, Funciones, Contenedores)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4cEDjgXCcpK69KAsvx-h-11" value="Observabilidad" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4cEDjgXCcpK69KAsvx-h-12" value="Compliance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4cEDjgXCcpK69KAsvx-h-13" value="Auditoria" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4cEDjgXCcpK69KAsvx-h-14" value="CIFRADO - KMS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4cEDjgXCcpK69KAsvx-h-15" value="BD - M" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4cEDjgXCcpK69KAsvx-h-16" value="S" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="460" y="360" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4cEDjgXCcpK69KAsvx-h-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4cEDjgXCcpK69KAsvx-h-15" target="4cEDjgXCcpK69KAsvx-h-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="190" as="sourcePoint" />
+            <mxPoint x="480" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4cEDjgXCcpK69KAsvx-h-19" value="ALMACENAMIENTO - Objetos, Bloques, Archivos." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="241.66" y="450" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4cEDjgXCcpK69KAsvx-h-20" value="CONECTIVIDAD - HIBRIDA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="241.66" y="520" width="320" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
